@@ -1,0 +1,113 @@
+footer .bottom-part {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    background-image: url(/assets/Images/footer-light-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    .right{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.bottom-part {
+    box-sizing: border-box;
+    padding: 50px 20px;
+    margin: 30px;
+    li {
+        list-style: none;
+    }
+
+    .column {
+        margin: 5px;
+        text-align: left;
+        padding: 0;
+    }
+
+    h5 {
+        margin-left: 40px;
+        margin-top: 0;
+    }
+
+    p {
+        color: rgb(49, 49, 49);
+        line-height: 1.7;
+        margin-top: 0;
+        margin-bottom: 1px;
+    }
+
+    img {
+        margin-top: 5px;
+    }
+}
+
+footer {
+    .banner {
+        top: -100px;
+        width: 1140px;
+        height: 200px;
+        box-sizing: border-box;
+        padding: 20px;
+        background-color: #343A40;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(/assets/Images/cta-bg.png);
+        border-radius: 5px;
+
+        .right {
+            background-color: #4D5256;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                background-color: var(--akcentuojama-spalva);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 15px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                transition: all 0.3s;
+                box-shadow: 10px 21px 35px -13px rgba(159,212,188,0.3);
+            }
+
+            .fa-solid {
+                margin-left: 10px;
+            }
+        }
+
+        .right, .left {
+            width: 500px;
+        }
+    }     
+
+    h3 {
+        color: white;
+        font-size: 26px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        font-weight: 400;
+    }  
+
+    .white-text {
+        color: white;
+        opacity: 0.75;
+        font-size: 16px;
+    }
+    
+    input {
+        background-color: #4D5256;
+        outline: none;
+        border: none;
+    }
+}
+

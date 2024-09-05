@@ -1,0 +1,32 @@
+section#our-project {
+    display: block;
+    height: 1200px;
+    
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    img {
+        width: 400px;
+    }
+
+    .card {
+        margin: 0 10px;
+    }
+
+    .card-group {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

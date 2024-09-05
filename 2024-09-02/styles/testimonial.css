@@ -1,0 +1,13 @@
+section#testimonial {
+    .container {
+        background-color: #f7eac3;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+}

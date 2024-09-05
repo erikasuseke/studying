@@ -1,0 +1,72 @@
+:root {
+    --tamsi-spalva: #343A40;
+    --akcentuojama-spalva: #1DE1AC;
+}
+
+@font-face {
+    font-family: "base-font medium";
+    src: url(/Paskaita5/assets/fonts/CerebriSansPro-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "base-font bold";
+    src: url(/Paskaita5/assets/fonts/CerebriSansPro-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "base-font semi-bold";
+    src: url(/Paskaita5/assets/fonts/CerebriSansPro-SemiBold.ttf) format("truetype");
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Mandali';
+    color: #6C757D;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "base-font medium";
+    color: var(--tamsi-spalva);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitle {
+    color: #6c757d;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 0 8px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 18px 0 8px;
+    line-height: 1.3;
+}
+
+
+

@@ -2,7 +2,7 @@ footer .bottom-part {
     position: relative;
     height: fit-content;
     display: flex;
-    background-image: url(/assets/Images/footer-light-bg.png);
+    background-image: url(/2024-09-02/assets/Images/footer-light-bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
 
@@ -54,7 +54,7 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-image: url(/assets/Images/cta-bg.png);
+        background-image: url(/2024-09-02/assets/Images/cta-bg.png);
         border-radius: 5px;
 
         .right {

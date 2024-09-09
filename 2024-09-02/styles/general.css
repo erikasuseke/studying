@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: "base-font medium";
-    src: url(/assets/fonts/CerebriSansPro-Medium.ttf) format("truetype");
+    src: url(/2024-09-02/assets/fonts/CerebriSansPro-Medium.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "base-font bold";
-    src: url(/assets/fonts/CerebriSansPro-Bold.ttf) format("truetype");
+    src: url(/2024-09-02/assets/fonts/CerebriSansPro-Bold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "base-font semi-bold";
-    src: url(/assets/fonts/CerebriSansPro-SemiBold.ttf) format("truetype");
+    src: url(/2024-09-02/assets/fonts/CerebriSansPro-SemiBold.ttf) format("truetype");
 }
 
 body {

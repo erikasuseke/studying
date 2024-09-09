@@ -10,10 +10,32 @@ section#our-project {
 
     .column {
         text-align: center;
+        margin-bottom: 48px;
     }
 
     .row {
         text-align: center;
+        margin-bottom: 16px;
+
+        ul > li {
+            padding: 0 15px;
+
+            .category {
+                padding: 0 15px;
+                border-radius: 4px;
+            }
+
+            .category:hover {
+                background-color: rgb(238, 238, 238);
+            }
+
+            .active-category {
+                background-color: var(--akcentuojama-spalva);
+                color: white;
+                border-radius: 4px;
+                padding: 0 15px;
+            }
+        }
     }
 
     .menu {
@@ -21,18 +43,45 @@ section#our-project {
         justify-content: center;
         list-style: none;
     }
-    
-    img {
-        width: 400px;
-    }
 
-    .card {
-        margin: 0 10px;
-    }
+   .card-row {
 
-    .card-group {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        .column {
+            text-align: center;
+        }
+
+        .card-group {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .card {
+            margin: 10px 10px;
+            box-shadow: 0 4px 2px -2px rgba(143, 143, 143, 0.2);
+
+            img {
+                width: 350px;
+                border-radius: 4px;
+            }
+
+            img:hover {
+                cursor: pointer;
+            }
+            
+            h5 {
+                margin: 0 0 4px;
+                font-weight: 400;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .card-text {
+                padding: 16px;
+            }
+        }
     }
 }

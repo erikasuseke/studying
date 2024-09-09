@@ -1,0 +1,119 @@
+nav {
+    background-color: #222222; 
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+            float: left;
+
+            a:hover {
+                color: white;
+            }
+        }
+        
+        li > a {
+            display: block;
+            color: rgb(202, 202, 202);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        li.active {
+            background-color: #0f0f0f;
+            color: white;
+        }
+    }
+    
+    .right {
+        float: right;
+        display: flex;
+        padding: 5px;
+        .input-area {
+            border-radius: 5px;
+            height: 34px;
+            padding-right: 10px;
+        }
+        
+        .search-btn {
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+            height: 35px;
+            width: 75px;
+            margin-left: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .search-btn:hover {
+            background-color: #ebebeb;
+            color: black;
+        }
+
+        input {
+            border-radius: 4px;
+        }
+    }
+}
+
+
+section#green-block {
+    height: fit-content;
+
+    .container {
+        background-color: #9ACD31;
+        margin: 0;
+        height: 290px;
+        max-width: 100%;
+        padding-top: 40px;
+
+        .main-text, .smaller-text {
+            text-align: center;
+            color: #ACFB2E;
+        }
+
+        .main-text {
+            font-size: 63px;
+            font-weight: 500;
+            padding-top: 50px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .smaller-text {
+            font-size: 21px;
+            font-weight: 200;
+            padding-bottom: 20px;
+        }
+
+        button {
+            background-color: #337AB7;
+            color: white;
+            font-size: 14px;
+            margin: auto;
+            display: flex;
+            justify-self: center;
+            padding: 8px 10px;
+            border-radius: 4px;
+            border: 0;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+          
+        button:hover {
+            background-color: #286498;
+            color: white;
+        }
+    }
+}
+
+
+
+

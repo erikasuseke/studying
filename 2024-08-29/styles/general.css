@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+
+    .container * {
+        max-width: 1140px; /* turino maksimalus plotis */
+        margin: 0 auto; /* turinys issicentruoja horizontaliai*/
+        text-align: center;
+    }
+
+    .button-text {
+        font-size: 14px;
+    }
+
+    p, h1, .smaller-text, .small-text, .title, a, .text1, .text2, .round {
+        font-family: "Helvetica";
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+#hero {
+    height: fit-content;
+    margin: 40px;
+
+    .container {
+    display: flex;
+    justify-content: center;
+    }
+
+    h1 {
+        font-size: 90px;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 70px;
+        text-transform: uppercase;
+        margin: 10px 0;
+        color: #F46D38;
+    }
+
+    .column {
+        padding: 50px 10px;
+        max-width: 45%;
+
+        button {
+            margin-top: 50px;
+            padding: 15px 30px;
+            background-color: rgb(35, 35, 35);
+            border-radius: 30px;
+            margin-right: 50px;
+            border: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        i {
+            font-size: 30px;
+        }
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            padding-right: 20px;
+        }
+
+        a:hover {
+            color: #F46D38;
+        }
+    }
+
+    .name-descr {
+        line-height: 1.7;
+        font-size: 16px;
+    }
+
+    .card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        height: 500px;
+        margin-left: 20px;
+
+        h3 {
+            color: #F46D38;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: black;
+            line-height: 1.7;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .card-text {
+            text-align: center;
+        }
+    }
+}
+
+.programs {
+    height: fit-content;
+    background-color: rgba(33, 33, 33, 0.73);
+
+    h2 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .programs-logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 50px;
+
+        img {
+            width: 100px;
+            padding: 20px;
+        }
+    }
+}

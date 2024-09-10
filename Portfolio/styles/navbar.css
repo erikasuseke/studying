@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    a {
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+        transition: 0.4s;
+    }
+
+    .logo {
+        color: #F46D38;
+    }
+
+    a:hover {
+        color: #F46D38;
+    }
+}

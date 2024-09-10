@@ -1,0 +1,68 @@
+#contact {
+    height: fit-content;
+    background-color: white;
+    padding: 30px 0;
+
+    .container {
+       text-align: center;
+
+        h2 {
+            color: #F46D38;
+            font-size: 45px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #282131;
+            font-weight: 600;
+        }
+
+        form {
+            max-width: 508px;
+            text-align: start;
+            
+        }
+
+        .name-surname {
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                width: 224px;
+                margin-right: 10px;
+            }
+        }
+
+        input {
+            width: 500px;
+            padding: 12px 20px;
+            border: 1px solid rgb(184, 184, 184);
+            border-radius: 4px;
+            margin: 5px 0 10px 0;
+        }
+
+        label {
+            color: #282131;
+            font-weight: 600;
+        }
+
+        .contact-form {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .send-btn {
+            width: 542px;
+            background-color: #673AB7;
+            color: white;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .send-btn:hover {
+            background-color: #5f35a8
+        }
+    }
+}

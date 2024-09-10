@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/styles/general.css">
     <link rel="stylesheet" href="/styles/hero.css">
     <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/contact.css">
     <script src="https://kit.fontawesome.com/ecc4adc2aa.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,10 +20,10 @@
                     <a href="" class="logo">LOGO</a>
                 </div>
                 <div class="nav-menu">
-                    <a href="/about-me.html">About me</a>
-                    <a href="/skills.html">Skills</a>
-                    <a href="/projects.html">Projects</a>
-                    <a href="/social-network.html">Social networks</a>    
+                    <a href="#hero">About me</a>
+                    <a href="#programs">Skills</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Social networks</a>    
                 </div>  
             </nav>
         </div>
@@ -38,9 +39,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam repellendus tempora quos perspiciatis labore aliquam </p>
                     </div>
                     <div class="info-btn">
-                        <button>
-                            <a href="/about-me.html">More info</a>
+                        <button class="about-me-btn">
+                            <a href="#programs">Explore more</a>
                             <i class="fa-solid fa-circle-arrow-right" style="color: #ff6a00;"></i>
+                        </button>
+                        <button class="contact-me-btn">
+                            <a href="#contact">Contact me</a>
                         </button>
                     </div>
                 </div>
@@ -50,7 +54,7 @@
                             <img src="/assets/img/profile-pic.jpg" alt="Foto">
                         </div>
                         <div class="card-text">
-                            <h3>Name Surname</h3>
+                            <h3>Hi, I'm Erika!</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium velit quo itaque maxime animi assumenda eos</p>
                         </div>
                     </div>
@@ -58,13 +62,45 @@
             </div>
         </section>
 
-        <section class="programs">
+        <section id="programs">
             <h2>I work with:</h2>
             <div class="programs-logo container">
                 <img src="/assets/img/html.png" alt="">
                 <img src="/assets/img/css.png" alt="">
                 <img src="/assets/img/js.png" alt="">
                 <img src="/assets/img/github.png" alt="">
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p>If you have any questions, please fill out this form:</p>
+                </div>
+                <div class="contact-form">
+                    <div class="name-surname-form">
+                        <form>
+                            <div class="name-surname">
+                                <div class="name">
+                                    <label for="first-name">First name:</label><br>
+                                    <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                                </div>
+                                <div class="surname">
+                                    <label for="last-name">Last name:</label><br>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email" name="email" placeholder="email@email.com"><br>
+                            <label for="phone-number">Phone Number</label><br>
+                            <input type="text" id="phone-number" name="phone-number" placeholder="+37060000000"><br>
+                            <label for="message">Message</label><br>
+                            <input type="text" id="message" name="message" placeholder="Leave a message here..."><br>
+                            <input type="submit" class="send-btn" value="Send message">
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 

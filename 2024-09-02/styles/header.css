@@ -63,7 +63,7 @@ header {
         height: auto;
     }
 
-    .hero  .container{
+    #hero  .container{
         margin: auto;
         display: flex;
         justify-content: center;

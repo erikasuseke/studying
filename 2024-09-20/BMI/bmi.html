@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bmi.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <section>
+        <div class="container1">
+            <h1>Kūno masės indekso skaičiuoklė</h1>
+            <div class="inputarea">
+                    <div class="weightinput">
+                        <label for="weightInputArea" class="inputtext">Įveskite savo svorį (kg.):</label>
+                        <input type="number" id="weightInputArea" required>
+                    </div>
+                    <div class="heightinput">
+                        <label for="heightInputArea" class="inputtext">Įveskite savo ūgį (m.):</label>
+                        <input type="number" id="heightInputArea" required>
+                    </div>
+                    <button class="calculate">Apskaičiuoti</button>
+            </div>
+            <h2>Jūsų rezultatas:</h2>
+            <div id="result"></div>
+            <div id="resultStatement"></div>
+        </div>
+        <div class="container2">
+            <table>
+                <thead>
+                    <tr style="background-color: #2b2d42;">
+                        <td>KMI</td>
+                        <td>Reikšmė</td>
+                    </tr>
+                </thead>
+                <tr style="color: #ff9914;">
+                    <td>< 18,5</td>
+                    <td>Nepakankamas svoris</td>
+                </tr>
+                <tr style="color: #5c8001;">
+                    <td>18 > 25</td>
+                    <td>Normalus svoris</td>
+                </tr>
+                <tr style="color: #ff9914;">
+                    <td>25 > 30</td>
+                    <td>Anstvoris</td>
+                </tr>
+                <tr style="color: #ef233c;">
+                    <td>30 <</td>
+                    <td>Nutukimas</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="/bmi.js"></script>
+</body>
+</html>

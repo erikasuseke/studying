@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bank.css">
+</head>
+<body>
+    <div class="container">
+        <div id="pavadinimas">
+            <h3 id="greeting">Sveiki, {vardas}</h3>
+            <p id="balance">Jūsų balansas: x Eur.</p>
+        </div>
+        <div class="row">
+            <input type="number" placeholder="Įveskite išlaidas" id="islaidu-input"/>
+            <button onclick="isleistiPinigus()">Išleisti pinigus</button>
+        </div>
+        <hr>
+        <div class="row">
+            <input type="number" placeholder="Įveskite kiek pinigų įnešate" id="inaso-input"/>
+            <button onclick="inestiPinigus()">Įnešti pinigus</button>
+        </div>
+        <hr>
+        <div class="row">
+            <input type="number" placeholder="Įveskite priduoto metalo kiekį (Kg.)" id="metalo-input"/>
+            <button onclick="priduotiMetala()">Priduoti metalą</button>
+        </div>
+        <hr>
+        <div class="row">
+            <button id="alga" onclick="gautiAlga()">Gauti algą</button>
+        </div>
+    </div>
+    <script src="/bank.js"></script>
+</body>
+</html>

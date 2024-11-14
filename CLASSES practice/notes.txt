@@ -1,0 +1,19 @@
+Sukurkite klasę Book, turinčią savybes title, author, year. Parašykite get'erius ir set'erius, kurie tikrintų, ar įvesti duomenys yra tinkami.
+
+Sukurkite klasę Employee, kuri turi savybes name, position, salary. Parašykite metodą promote(), kuris keistų darbuotojo poziciją.
+
+Sukurkite paveldėjimo hierarchiją tarp klasių Vehicle ir Bicycle, kad Bicycle paveldėtų iš Vehicle.
+
+Parašykite klasę Rectangle, kuri turi metodus apskaičiuoti plotą ir perimetrą. Sukurkite paveldėtą klasę Square.
+
+Sukurkite klasę User, kuri turi username ir password savybes. Parašykite metodą login(), kuris tikrina vartotojo duomenis.
+
+Sukurkite klasę Animal su savybe species ir metodu makeSound(). Paveldėkite iš jos kitas klases, kad būtų bent trijų lygių paveldėjimas. Sukurkite šešis skirtingus gyvūnus, kurie leidžia skirtingus garsus: banginis - tyli, šuo - vieną kartą sako 'au', katė - du kartus 'miau', žvirblis - tris kartus 'čikčirik', gaidys - keturis kartus 'kakariekū', karvė - penkis kartus 'mū'.
+
+Sukurkite klasę BankAccount, kuri turi balance savybę. Parašykite get'erį ir set'erį balansui, ir metodą deposit(), kad galima būtų pridėti pinigų.
+
+Sukurkite klasę School, turinčią savybę name ir masyvą students. Parašykite metodus pridėti studentą ir atvaizduoti visus studentus.
+
+Sukurkite paveldėjimo hierarchiją tarp klasių Instrument ir Guitar. Pridėkite metodą, kuris groja tam tikrą garsą.
+
+Sukurkite klasę Store, kuri turi inventory masyvą. Parašykite metodą pridėti naują prekių elementą ir metodą parodyti visus prekių likučius.

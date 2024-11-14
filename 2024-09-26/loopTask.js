@@ -161,7 +161,7 @@ let uniqueNumbers = [];
 
 function findAllUniqueNumbers() {
     let uniqueNumbers = Array.from(new Set(randomArray))
-    return uniqueNumbers
+    return uniqueNumbers;
 }
 
 console.log(findAllUniqueNumbers(uniqueNumbers));
